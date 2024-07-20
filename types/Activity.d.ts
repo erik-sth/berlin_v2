@@ -1,3 +1,5 @@
+import { ProjectId } from './Project';
+
 export type Activity = {
     _id: ActivityId;
     name: string;
@@ -6,6 +8,7 @@ export type Activity = {
     activityGroupId: string;
     studentIds: string[];
     studentLimit: number;
+    projectId: ProjectId;
 };
 
 export type ActivityId = string;
