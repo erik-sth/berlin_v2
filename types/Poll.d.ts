@@ -3,7 +3,7 @@ import { ActivityId } from './Activity';
 export type PollChoice = {
     _id: string;
     answer: string;
-    activityId: ActivityId;
+    activityGroupId: ActivityId;
     studentIds: string[];
     limit?: number;
 };
